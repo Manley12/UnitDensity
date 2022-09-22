@@ -11,7 +11,7 @@ public final class UnitDensity: Dimension {
     static let gramPerMililiter = UnitDensity(symbol: "g/mL", converter: UnitConverterLinear(coefficient: 1000))
     static let gramPerLiter = UnitDensity(symbol: "g/L", converter: UnitConverterLinear(coefficient: 1))
 
-    static let kilogramPerCentimeterCubed = UnitDensity(symbol: "g/cm\u{00B3}", converter: UnitConverterLinear(coefficient: 1000000))
+    static let kilogramPerCentimeterCubed = UnitDensity(symbol: "kg/cm\u{00B3}", converter: UnitConverterLinear(coefficient: 1000000))
     static let kilogramPerMeterCubed = UnitDensity(symbol: "kg/m\u{00B3}", converter: UnitConverterLinear(coefficient: 1))
     static let kilogramPerMililiter = UnitDensity(symbol: "kg/mL", converter: UnitConverterLinear(coefficient: 1000000))
     static let kilogramPerLiter = UnitDensity(symbol: "kg/L", converter: UnitConverterLinear(coefficient: 1000))
